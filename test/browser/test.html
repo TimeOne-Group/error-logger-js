@@ -9,9 +9,9 @@
   <body>
     <script>
       try {
-        throw new jsErrorLogger.AppError(jsErrorLogger.Severity.ERROR, 'Mon erreur');
+        throw new ErrorLogger.AppError(ErrorLogger.Severity.ERROR, 'Mon erreur');
       } catch (e) {
-        jsErrorLogger.Logger.catch(e);
+        ErrorLogger.Logger.catchError(e);
       }
     </script>
   </body>

@@ -14,7 +14,7 @@ export default [
     input: 'src/index.js',
     output: {
       format: 'umd',
-      name: 'jsErrorLogger',
+      name: 'ErrorLogger',
       exports: 'named',
       file: 'dist/index.js',
     },
