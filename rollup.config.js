@@ -25,12 +25,4 @@ export default [
       banner,
     ],
   },
-  {
-    input: 'src/index.js',
-    output: {
-      format: 'esm',
-      file: 'dist/index.esm.js',
-    },
-    plugins: [nodeResolve(), commonjs(), banner],
-  },
 ];
