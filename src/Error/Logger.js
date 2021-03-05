@@ -3,7 +3,7 @@ import AppError from './AppError';
 import Severity from './Severity';
 
 const Logger = {
-  catch: (error, prefix = 'Logger') => {
+  catchError: (error, prefix = 'Logger') => {
     if (error instanceof AppError) {
       switch (error.severity) {
         case Severity.WARNING:
