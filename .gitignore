@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# testing
+.nyc_output
+
+# build
+public
+
+# editor
+.remote-sync.json
+.vscode/*
+!.vscode/settings_default.json
