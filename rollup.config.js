@@ -24,4 +24,14 @@ export default [
       banner,
     ],
   },
+  {
+    input: 'src/index.js',
+    output: [{ file: 'dist/index.mjs', format: 'esm' }],
+    plugins: [nodeResolve(), commonjs(), banner],
+  },
+  {
+    input: 'src/index.js',
+    output: [{ file: 'dist/index.cjs', format: 'cjs' }],
+    plugins: [nodeResolve(), commonjs(), banner],
+  },
 ];
