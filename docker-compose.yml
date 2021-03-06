@@ -1,8 +1,16 @@
 version: '3'
 
 services:
-  error-logger-js:
+  build:
     image: node:14
     volumes:
       - .:/app
     working_dir: '/app'
+    command: 'npm start'
+
+  web:
+    image: nginx:1.19
+    ports:
+      - 8080:80
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro

@@ -15,7 +15,6 @@ export default [
     output: {
       format: 'umd',
       name: 'ErrorLogger',
-      exports: 'named',
       file: 'dist/index.js',
     },
     plugins: [

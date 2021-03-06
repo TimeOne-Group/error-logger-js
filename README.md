@@ -19,3 +19,11 @@ try {
     Logger.catchError(e);
 }
 ```
+
+## Develop
+
+```
+docker-compose up
+```
+
+http://localhost:8080/test.html
