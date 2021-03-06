@@ -22,9 +22,7 @@
     "url": "https://github.com/TimeOne-Group/error-logger-js/issues"
   },
   "homepage": "https://github.com/TimeOne-Group/error-logger-js#readme",
-  "dependencies": {
-    "core-js": "^3.9.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@ava/babel": "^1.0.1",
     "@babel/preset-env": "^7.13.9",
@@ -43,7 +41,7 @@
     "rollup": "^2.40.0",
     "rollup-watch": "^4.3.1"
   },
-  "browserslist": "last 2 versions, > 0.5%, ie >= 7",
+  "browserslist": "last 2 versions, > 0.5%, ie >= 11",
   "ava": {
     "babel": true,
     "require": [
