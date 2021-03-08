@@ -1,5 +1,5 @@
 
-/*! @timeone-group/error-logger-js 0.2.2 https://github.com/https://github.com/TimeOne-Group/error-logger-js#readme @license GPL-3.0 */
+/*! @timeone-group/error-logger-js 0.2.3 https://github.com/https://github.com/TimeOne-Group/error-logger-js#readme @license GPL-3.0 */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :

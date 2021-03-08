@@ -1,6 +1,6 @@
 {
   "name": "@timeone-group/error-logger-js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Javascript error logger for browser",
   "main": "src/index.js",
   "scripts": {
